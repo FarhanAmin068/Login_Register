@@ -1,0 +1,52 @@
+/* Landing.css */
+
+/* Header */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: #ffffff; /* Change this to your desired background color */
+  padding: 10px 20px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow */
+}
+
+/* Logo */
+.log_img {
+  height: 40px; /* Adjust the height as needed */
+}
+
+/* Navbar */
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+.navbar-nav .nav-link {
+  padding: 0.5rem 1rem;
+  margin: 0 5px;
+  color: #333333; /* Change this to your desired text color */
+  font-size: 16px; /* Adjust the font size as needed */
+}
+
+.navbar-nav .nav-link:hover {
+  color: #007bff; /* Change this to your desired hover color */
+}
+
+/* Navbar Toggler Icon */
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+/* Mobile Navbar */
+@media (max-width: 991.98px) {
+  .header {
+    padding: 10px;
+  }
+  .navbar-nav {
+    flex-direction: column;
+  }
+  .navbar-nav .nav-link {
+    margin: 5px 0;
+  }
+}
