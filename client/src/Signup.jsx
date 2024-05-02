@@ -2,6 +2,7 @@ import React from 'react'
 
 import './Signup.css'
 
+
 import { Link, useNavigate } from 'react-router-dom';
 import { useState } from 'react';
 import axios from 'axios'
@@ -20,7 +21,7 @@ function Signup(){
     .catch(err=>console.log(err))
   }
   return(
-<div>
+<div id="signup_bg">
   <meta charSet="UTF-8" />
   <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />

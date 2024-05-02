@@ -5,8 +5,8 @@
     box-sizing: border-box;
   }
   
-  body {
-    background-image: url('./images/bglogin.jpg');
+  #login_bg {
+     background-image: url('./image/bglogin.jpg'); 
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
